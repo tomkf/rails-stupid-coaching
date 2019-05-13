@@ -1,0 +1,50 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// <h1>Enter your answer:  </h1>
+
+// <%= @query %>
+// <p> -You </p>
+
+
+// <%= @answer %>
+// <p> -The Coach </p>
+
+
+// <%= link_to "Ask a different question", "/questions/ask" %>
+
+
+// <h1>Ask a question to your coach: </h1>
+
+// <form class="input-form" action="/answer" >
+//   <input type="text" name="responce">
+//   <input type="submit" value="Ask!">
+// </form>
+
+
+h1{
+    text-align: center;
+}
+
+
+
+.display{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.answer-box{
+      text-align: center;
+}
+
+.answer-box p{
+  text-align: left;
+}
+
+
+
